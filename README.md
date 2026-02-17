@@ -187,7 +187,7 @@ pipeline_metrics(
   docker compose down -v
 ```
 Power BI Dashboard Structures
-https://1drv.ms/u/c/ebe007bdcab2fa8d/IQBLBxnNIpj7TbV0HHFrs-sxAQDqEx705JMPwwNPAou0em4?e=dz1SMl
+https://1drv.ms/u/c/ebe007bdcab2fa8d/IQBLBxnNIpj7TbV0HHFrs-sxAQDqEx705JMPwwNPAou0em4?e=ntGw9h
 
 
 

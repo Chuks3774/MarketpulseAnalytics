@@ -187,7 +187,7 @@ pipeline_metrics(
   docker compose down -v
 ```
 Power BI Dashboard Structures
-[Power BI Visuals](../Downloads/MarketpulseAnalytics.pbix)
+https://1drv.ms/u/c/ebe007bdcab2fa8d/IQBLBxnNIpj7TbV0HHFrs-sxAQDqEx705JMPwwNPAou0em4?e=8Kdc2b
 
 
 

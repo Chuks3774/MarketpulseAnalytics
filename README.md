@@ -186,7 +186,18 @@ pipeline_metrics(
 ```cmd
   docker compose down -v
 ```
+### PostgreSQL (Serving Layer)
+Schema
+![alt text](image-6.png)
+### ANALYTICS LAYER
 Power BI Dashboard Structures
+Pages:
+1. Market Overview
+2. Predictive Analytics
+3. Portfolio Optimization
+4. Sentiment Intelligence
+5. Reliability Monitoring
+
 https://1drv.ms/u/c/ebe007bdcab2fa8d/IQBLBxnNIpj7TbV0HHFrs-sxAQDqEx705JMPwwNPAou0em4?e=8Kdc2b
 
 

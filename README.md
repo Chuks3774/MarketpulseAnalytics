@@ -187,7 +187,7 @@ pipeline_metrics(
   docker compose down -v
 ```
 ### PostgreSQL (Serving Layer)
-Schema
+Schemas
 ![alt text](image-6.png)
 ### ANALYTICS LAYER
 Power BI Dashboard Structures
@@ -198,7 +198,7 @@ Pages:
 4. Sentiment Intelligence
 5. Reliability Monitoring
 
-https://1drv.ms/u/c/ebe007bdcab2fa8d/IQBLBxnNIpj7TbV0HHFrs-sxAQDqEx705JMPwwNPAou0em4?e=8Kdc2b
+https://app.powerbi.com/view?r=eyJrIjoiMzkxNTQ1OTAtYTJiYS00OTNlLWE2MTYtNTRlNzA1OGUzYjBkIiwidCI6IjUxYTBhNjljLTBlNGYtNGIzZC1iNjQyLTEyZTAxMzE5ODYzNSIsImMiOjh9
 
 
 

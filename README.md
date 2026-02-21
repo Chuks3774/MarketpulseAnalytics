@@ -29,7 +29,7 @@ All components are fully containerized using Docker, ensuring portability, scala
 [Data Source](https://rapidapi.com/alphavantage/api/alpha-vantage/playground/apiendpoint_55220bb2-8a64-4cde-89e1-87ec00947f57)
 
 Data Pipeline Architecture
-![alt text](image.png)
+![Data pipeline](./img/image.png)
 
 ### Business Context
 Marketpulse is a financial organisation that specialises in real-time stock market analysis, financial forecasting, and trading strategy optimization in Nerw york.
@@ -164,9 +164,9 @@ pipeline_metrics(
   localhost:8085
   ```
 ### Postgres Login From Pgadmin
-![alt text](image-2.png)
+![postgres](./img/image-2.png)
 ### Kafka Login From Kafka UI
-![alt text](image-4.png)
+![kafkalogin](./img/image-3.png)
 ### Run The Python Producer Script To Send Data To Kafka
 ```python
   python producer/main.py
@@ -181,7 +181,7 @@ pipeline_metrics(
   ## You need to run the `SELECT * FROM Table` query
   ```
   ### Connect Power BI To Postgres
-  ![alt text](image-5.png)
+  ![power bi connect](./img/image-5.png)
 ### Shut Down Server
 ```cmd
   docker compose down -v
@@ -254,7 +254,7 @@ This enables early detection of:
 
 ### PostgreSQL (Serving Layer)
 Schemas
-![alt text](image-6.png)
+![schema](./img/image-6.png)
 ### ANALYTICS LAYER
 Power BI Dashboard Structures
 Pages:

@@ -264,7 +264,7 @@ Pages:
 4. Sentiment Intelligence
 5. Reliability Monitoring
 
-https://app.powerbi.com/view?r=eyJrIjoiMzkxNTQ1OTAtYTJiYS00OTNlLWE2MTYtNTRlNzA1OGUzYjBkIiwidCI6IjUxYTBhNjljLTBlNGYtNGIzZC1iNjQyLTEyZTAxMzE5ODYzNSIsImMiOjh9
+LIVE Dashboard :https://app.powerbi.com/view?r=eyJrIjoiMzkxNTQ1OTAtYTJiYS00OTNlLWE2MTYtNTRlNzA1OGUzYjBkIiwidCI6IjUxYTBhNjljLTBlNGYtNGIzZC1iNjQyLTEyZTAxMzE5ODYzNSIsImMiOjh9
 
 
 

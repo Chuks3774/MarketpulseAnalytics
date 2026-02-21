@@ -186,6 +186,72 @@ pipeline_metrics(
 ```cmd
   docker compose down -v
 ```
+##  Monitoring and Observability
+
+To ensure production-grade reliability, the platform implements a full observability layer using Prometheus and Grafana.
+This monitoring stack enables real-time visibility into both infrastructure-level and application-level performance metrics.
+
+---
+
+###  Monitoring Stack
+
+| Component | Purpose |
+|------------|----------|
+| Prometheus | Metrics collection and time-series storage |
+| Grafana | Real-time visualization dashboards |
+| cAdvisor | Container-level CPU, memory, network monitoring |
+| Postgres Exporter | Database performance metrics |
+| Docker | Container health and lifecycle management |
+
+---
+
+
+
+The platform tracks:
+
+####  Infrastructure Metrics
+- Container CPU usage
+- Memory consumption
+- Network I/O
+- Disk activity
+- Container uptime
+
+####  Database Metrics
+- Active connections
+- Transaction rate
+- Query throughput
+- Replication status
+
+####  Pipeline Health Metrics
+Custom pipeline metrics stored in PostgreSQL:
+
+- Component status (Producer, Kafka, Spark, Consumer, Postgres, Power BI)
+- Error counts
+- Processing lag (seconds)
+- Rows written per batch
+- Last successful refresh
+
+These metrics support proactive anomaly detection and system health reporting.
+
+---
+
+###  Reliability Dashboard (Grafana)
+
+Grafana dashboards provide real-time visualization of:
+
+- Spark resource utilization during streaming
+- Kafka message flow under peak load
+- Consumer processing lag
+- Database throughput trends
+- Container performance during market spikes
+
+This enables early detection of:
+
+- Processing bottlenecks
+- Latency spikes
+- Resource exhaustion
+- Service failures
+
 ### PostgreSQL (Serving Layer)
 Schemas
 ![alt text](image-6.png)
